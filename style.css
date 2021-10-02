@@ -1,0 +1,22 @@
+.unit {
+  height: 100%;
+  width: 100%;
+  border: solid 1px red;
+  background-color: white;
+}
+.cell {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+.newcolor {
+  background-color: blue;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  background-color: black;
+}
